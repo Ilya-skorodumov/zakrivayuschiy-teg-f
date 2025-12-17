@@ -11,19 +11,19 @@
 */
 
 @keyframes heart {
-  0%{
+  0% {
     scale: 1;
   }
-  100%{
+  100% {
     scale: 1.25;
   }
 }
 
 @keyframes sparks {
-  0%{
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
