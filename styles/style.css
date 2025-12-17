@@ -42,7 +42,6 @@
 .header__text {
   vertical-align: bottom;
   font-family: var(--accent-font), sans-serif;
-  font-weight: 400;
   line-height: 100%;
   text-transform: uppercase;
 }
@@ -288,8 +287,7 @@
   position: relative;
   z-index: 1;
   color: var(--bg-color);
-  font-family: "Press Start 2P", sans-serif;
-  font-weight: 400;
+  font-family: var(--accent-font), sans-serif;
   font-size: 14px;
   line-height: 90%;
   mix-blend-mode: difference;
@@ -355,7 +353,7 @@
 
 .insert__floppy-text {
   padding-top: 1px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;
